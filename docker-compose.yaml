@@ -10,7 +10,7 @@ services:
       - ".:/var/www/glpi:rw"
       - "custom_php_ini:/usr/local/etc/php/custom_conf.d/:rw"
     ports:
-      - "8080:80"
+      - "8090:8080"
       - "9637:9637"
     depends_on:
       - db
